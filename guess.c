@@ -8,7 +8,7 @@ int main ()
 
 {   
 const int MIN=1;
-const int MAX=1000;
+const int MAX=100;
 int guess;
 int guesses;
 int answer;
