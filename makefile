@@ -1,14 +1,15 @@
-PROG = peintname.exe 
-SRC = peintname.c
+PROG = guess.exe
+SRC = guess.c
 CFLAGS = -g
 LIBS = 
 
 all: $(PROG)
 
 $(PROG): $(SRC)
-    $(CC) -o $@ $(CFLAGS) $(LDFLAGS) $(SRC)  $(LIBS) 
+	gcc -o $@ $(CFLAGS) $(LDFLAGS) $(SRC) $(LIBS)
+
 
 clean:
-    rm -f $(PROG)
+	rm -f $(PROG)
 
 .PHONY: all clean
