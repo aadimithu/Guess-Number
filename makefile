@@ -1,5 +1,5 @@
-PROG = peintname.exe 
-SRC = peintname.c
+PROG = guess.exe 
+SRC = guess.c
 CFLAGS = -g
 LIBS = 
 
