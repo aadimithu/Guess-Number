@@ -35,6 +35,7 @@ printf("your guess is correct!\n");
 guesses++;
 } while (guess !=answer);
 
-
+printf("answer:%d,answer");
+printf("guesses:%d,guesses");
     return 0;
 }
